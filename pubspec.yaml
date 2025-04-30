@@ -1,0 +1,52 @@
+name: decoy
+description: A new Flutter project.
+
+version: 1.1.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  isar: ^3.1.0+1 
+  isar_flutter_libs: ^3.1.0+1
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.0.15
+  provider: ^6.1.1
+  pedometer: ^4.1.0
+  permission_handler: ^12.0.0
+  intl: ^0.18.0
+  flutter_local_notifications: ^17.2.3
+  fl_chart: ^0.55.2
+  timezone: ^0.9.1
+  time_machine: ^0.9.16
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.7
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true 
+  ios: false
+  image_path: "assets/images/group_one.png"
+  android_adaptive_icon_foreground: "assets/images/group_one.png"
+  android_adaptive_icon_background: "#FFFFFF"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/add_friend.png
+    - assets/images/back.png
+    - assets/images/change_password.png
+    - assets/images/exit_from_account.png
+    - assets/images/friends.png
+    - assets/images/personal_info.png
+    - assets/images/profile.png
+    - assets/images/walk_icon.png
+
+environment:
+  sdk: ^3.7.2
