@@ -56,7 +56,7 @@ void main() async {
   );
   final deepSeekService = DeepSeekService(
     apiKey:
-        "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",
+        "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",
   );
 
   // Проверка авторизации
